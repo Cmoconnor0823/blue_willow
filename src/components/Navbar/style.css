@@ -1,0 +1,35 @@
+.pages{
+    color:#74888C;
+}
+.navbar {
+    border-bottom: 1px solid #025E73;
+    background-color: #024059;
+    /* position: fixed; */
+  }
+  .navbar-brand{
+      margin-left: 10%;
+      text-align:left;
+      font-size: 20px;
+  }
+  ul > li {
+      display:inline;
+  }
+  /* unvisited link */
+a:link {
+  color: #F2F2F2;
+}
+
+/* visited link */
+a:visited {
+  color:#74888C;
+}
+
+/* mouse over link */
+a:hover {
+  color: #F2F2F2;
+}
+
+/* selected link */
+a:active {
+  color: #025E73;
+}
