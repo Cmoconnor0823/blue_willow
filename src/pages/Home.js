@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row, CardColumns } from "reactstrap";
+import BannerCard from "../components/BannerCard";
 import Wrapper from "../components/Wrapper/";
 //import "./style.css";
 
@@ -10,7 +11,7 @@ class Home extends Component {
             <Wrapper>
                 <Row>
                     <Col>
-                        {/* <WelcomeCard></WelcomeCard> */}
+                        <BannerCard></BannerCard>
                     </Col>
                 </Row>
                 <Row className="m-3">
