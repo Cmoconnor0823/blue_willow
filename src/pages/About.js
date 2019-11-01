@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Col, Row, CardColumns } from "reactstrap";
 import Wrapper from "../components/Wrapper/";
-//import "./style.css";
+
 
 
 class About extends Component {
     state = {
-        loggedin: true
+        
 
     };
     render() {

@@ -31,11 +31,14 @@ class NavBar extends React.Component {
                         <NavItem>
                             <NavLink href="/about">About</NavLink>
                         </NavItem>
+                        <NavItem>
+							<NavLink href="/reservations">Reservations</NavLink>
+						</NavItem>
+                        <NavItem>
+                            <NavLink href="/bakery">Bakery</NavLink>
+                        </NavItem>
                         {/* <NavItem>
 								<NavLink href="/about">About</NavLink>
-							</NavItem> */}
-                        {/* <NavItem>
-								<NavLink href="https://github.com/Cmoconnor0823/Connect">GitHub</NavLink>
 							</NavItem> */}
                     </Nav>
                 </Collapse>

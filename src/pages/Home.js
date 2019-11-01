@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Col, Row, CardColumns } from "reactstrap";
 import BannerCard from "../components/BannerCard";
+import ImageSlide from "../components/ImageSlide";
 import Wrapper from "../components/Wrapper/";
 //import "./style.css";
 
@@ -17,7 +18,7 @@ class Home extends Component {
                 <Row className="m-3">
                     <Col>
                         <CardColumns>
-                            {/*<MessageCard></MessageCard>*/}
+                            <ImageSlide></ImageSlide>
                             {/* This is a template to make a new card
                                      <Card>
                                      <CardBody>
